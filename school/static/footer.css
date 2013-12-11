@@ -1,0 +1,7 @@
+footer .footer{
+height: 35px;
+overflow: hidden;
+margin-top: -35px;
+position: relative;
+z-index: 10;
+}
