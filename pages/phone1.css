@@ -1,0 +1,23 @@
+  body{
+    background:url(../imgs/woodbackground.jpg) repeat #000000;
+  }
+  .iphone_container {
+    width: 380px;
+    height: 744px;
+    margin: 10px 0 0 50px;
+    padding: 0px;
+    float: left;
+    background: url(../imgs/preview.png) no-repeat center;
+  }
+  iframe{
+    width: 320px;
+    height: 480px;
+  }
+  .preview_container {
+    width: 800px;
+    margin: auto;
+  }
+  .preview_content {
+    padding: 132px 0 0 32px;
+  }
+

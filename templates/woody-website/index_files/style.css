@@ -1,0 +1,18 @@
+/*
+	Theme Name: Chromium
+	Author: Laborator
+	Author URI: http://www.laborator.co
+	Version: 1.0.0
+	Description: Chromium – is a responsive WordPress theme carefully crafted for Business and Blog use. It has built-in features such as: gallery, working contact form, mobile menu, portfolio sorting and other cool features you will see when using it.
+	License: GNU General Public License v2 or later
+	License URI: README_License.txt
+*/
+
+.sticky, 
+.gallery-caption, 
+.bypostauthor, 
+.wp-caption-text, 
+.wp-caption,
+.tags,
+.tagcloud {
+}

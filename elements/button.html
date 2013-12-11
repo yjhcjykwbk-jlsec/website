@@ -1,0 +1,42 @@
+<style>
+  .ui-btn-corner-all {
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+.ui-btn-inner {
+padding: .6em 25px;
+display: block;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+position: relative;
+zoom: 1;
+}
+.ui-btn-text {
+position: relative;
+z-index: 1;
+}
+.ui-btn-icon-left .ui-icon, .ui-btn-icon-right .ui-icon {
+position: absolute;
+top: 50%;
+margin-top: -9px;
+}
+.ui-icon-shadow {
+-moz-box-shadow: 0px 1px 0 rgba(255,255,255,.4);
+-webkit-box-shadow: 0px 1px 0 rgba(255,255,255,.4);
+box-shadow: 0px 1px 0 rgba(255,255,255,.4);
+}
+.ui-icon, .ui-icon-searchfield::after {
+background: rgba(164,94,59,1);
+background-image: url(icons-18-white.png);
+background-repeat: no-repeat;
+-moz-border-radius: 9px;
+-webkit-border-radius: 9px;
+border-radius: 9px;
+}
+</style>
+<span class="ui-btn-inner ui-btn-corner-all">
+  <span class="ui-btn-text">Plus </span>
+  <span class="ui-icon ui-icon-plus ui-icon-shadow"></span>
+</span>

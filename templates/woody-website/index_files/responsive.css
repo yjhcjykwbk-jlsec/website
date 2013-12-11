@@ -1,0 +1,156 @@
+.visible-desktop {display: inherit !important;}
+.visible-tablet {display: none !important;}
+.visible-phablet {display: none !important;}
+.visible-phone {display: none !important;}
+.visible-desktab {display: inherit !important;}
+.visible-phabphone {display: none !important;}
+.hidden-desktop {display: none !important;}
+.hidden-tablet {display: inherit !important;}
+.hidden-phablet {display: inherit !important;}
+.hidden-phone {display: inherit !important;}
+.hidden-desktab {display: none !important;}
+.hidden-phabphone {display: inherit !important;}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.visible-desktop {display: none !important;}
+	.visible-tablet {display: inherit !important;}
+	.visible-phablet {display: none !important;}
+	.visible-phone {display: none !important;}
+	.visible-desktab {display: inherit !important;}
+	.visible-phabphone {display: none !important;}
+	.hidden-desktop {display: inherit !important;}
+	.hidden-tablet {display: none !important;}
+	.hidden-phablet {display: inherit !important;}
+	.hidden-phone {display: inherit !important;}
+	.hidden-desktab {display: none !important;}
+	.hidden-phabphone {display: inherit !important;}
+}
+
+@media only screen and (max-width: 767px) {
+	.visible-desktab {display: none !important;}
+	.visible-phabphone {display: inherit !important;}
+	.hidden-desktab {display: inherit !important;}
+	.hidden-phabphone {display: none !important;}
+
+	.ABs_row .ABs_span12, .ABs_span12,
+	.ABs_row .ABs_span11, .ABs_span11,
+	.ABs_row .ABs_span10, .ABs_span10,
+	.ABs_row .ABs_span9, .ABs_span9,
+	.ABs_row .ABs_span8, .ABs_span8,
+	.ABs_row .ABs_span7, .ABs_span7,
+	.ABs_row .ABs_span6, .ABs_span6,
+	.ABs_row .ABs_span5, .ABs_span5,
+	.ABs_row .ABs_span4, .ABs_span4,
+	.ABs_row .ABs_span3, .ABs_span3,
+	.ABs_row .ABs_span2, .ABs_span2,
+	.ABs_row .ABs_span1, .ABs_span1{
+		width: 100%;
+		margin-left: 0;
+	}
+
+
+	.ABs-tabs .ui-tabs-nav li {
+		margin-right: 0px;
+		width: 100%;
+		margin-left: 0;
+		float: none;
+		text-align: left;
+		padding: 5px 15px;
+	}
+
+	.ABs-tabs .ui-tabs-nav li.ui-tabs-active{
+		background: #f9f9f9;
+	}
+
+	.ABs-tabs .ui-tabs-nav li.ui-tabs-active:after{
+		display: none;
+	}
+
+	.ABs-tabs-position-bottom .ui-tabs-nav {
+		position: relative;
+	}
+
+	.ABs-tabs-position-bottom .ui-tabs-nav li.ui-tabs-active:after{
+		display: none;
+	}
+
+	.ABs-tabs-position-bottom .ui-tabs-panel {
+		padding: 0;
+	}
+
+	.ABs-tabs-position-left .ui-tabs-nav,
+	.ABs-tabs-position-right .ui-tabs-nav {
+		margin: 0;
+		border-bottom:none;
+		border-right: 1px solid #eeeeee;
+		width: 100%;
+		position: relative;
+		padding-bottom: 20px;
+	}
+
+	.ABs-tabs-position-left .ui-tabs-nav li,
+	.ABs-tabs-position-right .ui-tabs-nav li{
+		float: none;
+		text-align: left;
+		line-height: 37px;
+		padding: 5px 15px;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.ABs-tabs-position-left .ui-tabs-nav li.ui-tabs-active,
+	.ABs-tabs-position-right .ui-tabs-nav li.ui-tabs-active{
+		background: #f9f9f9;
+	}
+
+	.ABs-tabs-position-left .ui-tabs-nav li.ui-tabs-active:after,
+	.ABs-tabs-position-right .ui-tabs-nav li.ui-tabs-active:after{
+		display: none;
+	}
+
+	.ABs-tabs-position-left .ui-tabs-panel,
+	.ABs-tabs-position-right .ui-tabs-panel{
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-top:0;
+	}
+
+	.ABs_pricing-table-1,
+	.ABs_pricing-table-2{
+		margin-bottom: 20px;
+	} 
+
+	.ABs_meter {
+		margin-left: 0px;
+	}
+
+	.ABs_meter_label{
+		float: none;
+		display: block;
+	}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.visible-desktop {display: none !important;}
+	.visible-tablet {display: none !important;}
+	.visible-phablet {display: inherit !important;}
+	.visible-phone {display: none !important;}
+	.hidden-desktop {display: inherit !important;}
+	.hidden-tablet {display: inherit !important;}
+	.hidden-phablet {display: none !important;}
+	.hidden-phone {display: inherit !important;}
+}
+
+@media only screen and (max-width: 479px) {	
+	.visible-desktop {display: none !important;}
+	.visible-tablet {display: none !important;}
+	.visible-phablet {display: none !important;}
+	.visible-phone {display: inherit !important;}
+	.hidden-desktop {display: inherit !important;}
+	.hidden-tablet {display: inherit !important;}
+	.hidden-phablet {display: inherit !important;}
+	.hidden-phone {display: none !important;}
+
+}

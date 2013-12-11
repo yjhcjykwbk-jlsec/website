@@ -1,0 +1,11 @@
+<link type="text/css" rel="stylesheet" href="woody.min.css">
+<link type="text/css" rel="stylesheet" href="default.min.css">
+<?php $imgs=array("../imgs/slide_item1.jpg","../imgs/slide_item2.jpg","../imgs/slide_item3.jpg","../imgs/slide_item4.jpg"); ?>
+<div class="slider" style="position: relative; overflow: hidden;">
+  <?php foreach($imgs as $it=>$img){ ?>
+  <img src="<?php echo $img; ?>" style="position: absolute; top: 9.2607673474126px; left: 0px; display: block; z-index: 4; opacity: 1; width: 310px; height: 130px;">
+  <?php } ?>
+  <img src="images/slide_item2.jpg" style="position: absolute; top: -119.81046932449057px; left: 0px; display: block; z-index: 5; opacity: 1; width: 310px; height: 130px;">
+  <img src="images/slide_item3.jpg" style="position: absolute; top: 130px; left: 0px; display: none; z-index: 4; opacity: 1; width: 310px; height: 130px;">
+  <img src="images/slide_item4.jpg" style="position: absolute; top: 130px; left: 0px; display: none; z-index: 4; opacity: 1; width: 310px; height: 130px;">
+</div>

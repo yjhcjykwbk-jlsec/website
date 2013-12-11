@@ -1,0 +1,13 @@
+<link type="text/css" rel="stylesheet" href="form.css">
+<div id="main"> <!-- Main content area -->
+<h2>Contact us</h2>
+<p>AxiaMobile comes with <b>full working PHP contact form</b> with simple one-click set-up.</p>
+<p><img class="bordered_picture fullwidth" src="http://maps.googleapis.com/maps/api/staticmap?center=-4,30&amp;zoom=11&amp;size=1600x1200&amp;sensor=true"></p>
+<form id="form" method="post" action="contact.php">
+<input type="text" required="required" name="name" value="Your name..." onclick="this.value=''" onblur="this.value='Your name...'">
+<input type="text" required="required" value="Your email..." name="email" onclick="this.value=''" onblur="this.value='Your email...'">
+<textarea cols="10" required="required" rows="10" name="message" onclick="this.value=''" onblur="this.value='Your message...'">Your message...</textarea>
+<input type="submit" class="button FancyBlue" value="Send message">
+</form>
+
+</div>
