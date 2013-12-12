@@ -2,11 +2,11 @@
  .four-item .columns {
     float: left;
     display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 .four-item {
-    width: 220px;
+    width: 240px;
   }
 .four-item  {
     position: relative;

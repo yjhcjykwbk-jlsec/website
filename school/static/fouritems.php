@@ -1,5 +1,5 @@
 <style>
- .four-item .columns {
+ .four-item  {
     float: left;
     display: inline;
     margin-left: 10px;
@@ -46,12 +46,13 @@
 
   <div class="four-item-info">
     <div class="saw_h"></div>
-    <h1>
+    <h3>
       <a href="<?php echo $fouritem['href'];?>"><?php echo $fouritem['title'];?></a>
-    </h1>
+    </h3>
 
     <span><p><?php echo $fouritem['desp'];?></p>
     </span>
   </div>
   <!-- end: portfolio item -->
 </div>
+<?php } ?>

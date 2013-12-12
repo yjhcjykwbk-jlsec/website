@@ -15,7 +15,7 @@
   transition-duration: 0.3s;
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
-  height:400px;
+  height:300px;
   width: 31%;
   display:inline-block; 
   /* note: it is for this blocks in a line and not damaged*/
