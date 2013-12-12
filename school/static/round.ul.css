@@ -1,3 +1,6 @@
+.round li{
+  list-style:none;
+}
 ul.round {
 	border:1px solid #C6C6C6;
 	background-color:rgba(255, 255, 255, 0.9);
